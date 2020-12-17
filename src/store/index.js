@@ -1,11 +1,8 @@
 import { BehaviorSubject } from 'rxjs';
 
-const subscriber = new BehaviorSubject({
-    totalWords: 0,
+export const subscriber = new BehaviorSubject({
+    total: 0,
     correct: 0,
     error: 0,
-    testWordsCount: 0,
     score: 0
 });
-
-export { subscriber };
